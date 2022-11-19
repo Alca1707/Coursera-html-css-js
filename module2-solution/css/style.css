@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#title{
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: xx-large;
+}
+
+
+
+.box{
+    border: 2px solid black;
+    width: 90%;   
+    margin: auto;    
+    margin-bottom: 2%;
+    background-color: #999999;
+}
+
+.item-title{
+    font-size: larger;
+    border: 2px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    padding: 3px 5%;
+    margin: 0;
+    float: right;
+}
+
+#chicken{
+    background-color: #d59898;
+}
+
+#beef{
+    background-color: #c14543;
+    color: white;
+}
+
+#sushi{
+    background-color: #e5d198;
+}
+
+p{
+    clear: right;
+    margin: 55px 35px 35px;
+}
+
+@media (max-width: 767px){
+    .box{
+        width: 90%;   
+        margin: auto;     
+        margin-bottom: 25px;
+    }
+
+    #title{
+        margin-bottom: 6%;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px){
+    .box{
+        width: 48%;
+        float: left;
+        margin: 1%;
+    }
+
+    #sushi-container{
+        clear: both;
+        width: 98%;
+        margin: 1%;
+    }
+}
+
+@media (min-width: 992px){
+    .box{
+        width: 32%;
+        float: left;
+        margin: 0.5%;
+    }
+}
+
+
